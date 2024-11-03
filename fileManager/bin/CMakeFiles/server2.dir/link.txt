@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/server2.dir/utils.cpp.o CMakeFiles/server2.dir/server2.cpp.o CMakeFiles/server2.dir/clientManager.cpp.o  -o server2 -lpthread ../libFileManager.a -lstdc++fs 

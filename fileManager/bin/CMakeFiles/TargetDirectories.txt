@@ -1,0 +1,7 @@
+/home/ubuntu/fileManager/bin/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/fileManager/bin/CMakeFiles/client.dir
+/home/ubuntu/fileManager/bin/CMakeFiles/server.dir
+/home/ubuntu/fileManager/bin/CMakeFiles/fileManager.dir
+/home/ubuntu/fileManager/bin/CMakeFiles/broker.dir
+/home/ubuntu/fileManager/bin/CMakeFiles/edit_cache.dir
+/home/ubuntu/fileManager/bin/CMakeFiles/server2.dir

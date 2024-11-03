@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ubuntu/fileManager/filemanager.h
+iostream
+-
+string
+-
+map
+-
+vector
+-
+experimental/filesystem
+-
+fstream
+-
+iostream
+-
+iterator
+-
+
+/home/ubuntu/fileManager/main_fm.cpp
+iostream
+-
+sstream
+-
+filemanager.h
+/home/ubuntu/fileManager/filemanager.h
+
