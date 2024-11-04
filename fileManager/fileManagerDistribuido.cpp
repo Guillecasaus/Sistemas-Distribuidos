@@ -81,7 +81,7 @@ FileManager::~FileManager(){
     }
 }
 
-FileManager::listFiles(){ //REVISAR
+FileManager::listFiles(){ 
     auto conn = ClientManager::connections[this];
     vector<unsigned char> buffer;
 
@@ -111,7 +111,7 @@ FileManager::listFiles(){ //REVISAR
     return result;
 }
 
-FileManager::readFile(string fileName, vector<unsigned char> &data){ //REVISAR
+FileManager::readFile(string fileName, vector<unsigned char> &data){
     auto conn = ClientManager::connections[this];
     vector<unsigned char> buffer;
 
@@ -138,7 +138,7 @@ FileManager::readFile(string fileName, vector<unsigned char> &data){ //REVISAR
     }
 }
 
-FileManager::writeFile(string fileName, vector<unsigned char> &data){ //REVISAR
+FileManager::writeFile(string fileName, vector<unsigned char> &data){ 
 
     auto conn = ClientManager::connections[this];
     vector<unsigned char> buffer;
